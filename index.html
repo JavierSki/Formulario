@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width-device-width, initial-scale=1.0">
+		<title>Formulario</title>
+		<script src="jquery.js" type="text/javascript"></script>
+		<script src="main.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="bootstrap.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="body">
+			<div class="jumbotron">
+				<h1>Contactenos</h1>
+			</div>
+			<div class="fcontacto">
+				<form action="" method="POST" id="fcontacto" name="fcontacto">
+					<div class="row">
+						<div class="col-md-6">
+							<label for="">Tu nombre:</label>
+							<input type="text" name="name" id="name" class="form-control" />
+						</div>
+						<div class="col-md-6">
+							<label for="">Tu Email:</label>
+							<input type="text" name="email" id="email" class="form-control" />
+						</div>
+					</div>
+					<label for="">Asunto:</label>
+					<input type="text" name="asunto" id="asunto" class="form-control" />
+					<label for="">Tu Mensaje:</label>
+					<textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-control" ></textarea>
+					<input type="submit" value="Enviar" class="btn btn-primary"/>
+
+					<div id="respuesta" style="display:hidden;"></div>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
